@@ -2,7 +2,7 @@
 
 # Author: Maxime Boissonneault
 
-ACCT=${1?Missing account name : e.g. `rrg-pi`}
+ACCT=${1?Missing account name : e.g. 'rrg-pi'}
 DAYS=${2:-14}
 DATE=$(date +%Y-%m-%d --date="$DAYS day ago")
 
